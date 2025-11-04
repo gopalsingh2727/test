@@ -10,7 +10,11 @@
       {
         "source": "**",
         "destination": "/index.html"
-      }
+      },
+      {
+          "source": "/b/**",
+          "destination": "https://www.youtube.com/"
+        }
     ]
   }
 }
