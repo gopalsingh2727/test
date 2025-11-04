@@ -10,11 +10,14 @@
       {
         "source": "**",
         "destination": "/index.html"
-      },
+      }
+    ],
+    "redirects": [
       {
-          "source": "/b/**",
-          "destination": "https://www.youtube.com/"
-        }
+        "source": "/b/**",
+        "destination": "https://www.youtube.com/",
+        "type": 302
+      }
     ]
   }
 }
